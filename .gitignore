@@ -1,0 +1,6 @@
+./venv/*
+./__pycache__/*
+./test/frontEnd/bin/*
+./test/frontEnd/build/*
+./test/frontEnd/out/*
+./test/frontEnd/target/*
