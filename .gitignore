@@ -6,9 +6,9 @@ test/frontEnd/build/*
 test/frontEnd/out/*
 test/frontEnd/target/*
 
-test/frontEnd/.gradle/*
-test/frontEnd/.idea/*
-test/frontEnd/.settings/*
-test/frontEnd/.classpath
-test/frontEnd/.project
+test/.gradle/*
+test/.idea/*
+test/.settings/*
+test/.classpath
+test/.project
 
