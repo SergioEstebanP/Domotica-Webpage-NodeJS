@@ -1,2 +1,2 @@
-# Domotica-Webpage
-Webpage for domotica app
+# PGPI-entrega
+Proyecto de registro de incidencias para PGPI 
