@@ -1,5 +1,5 @@
-./venv/*
-./__pycache__/*
+.src//venv/*
+.src/__pycache__/*
 ./test/frontEnd/bin/*
 ./test/frontEnd/build/*
 ./test/frontEnd/out/*
