@@ -1,6 +1,6 @@
-./src/venv/
-./src/__pycache__/
-./test/frontEnd/bin/
-./test/frontEnd/build/
-./test/frontEnd/out/
-./test/frontEnd/target/
+src/venv/*
+src/__pycache__/*
+test/frontEnd/bin/*
+test/frontEnd/build/*
+test/frontEnd/out/*
+test/frontEnd/target/*
