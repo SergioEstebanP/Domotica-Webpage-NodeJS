@@ -2,6 +2,8 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import or_
 from flask_login import UserMixin, LoginManager
 
+from app import app
+
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://pi:@127.0.0.1:3306/Domotica'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
