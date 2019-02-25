@@ -5,10 +5,14 @@ test/frontEnd/bin/*
 test/frontEnd/build/*
 test/frontEnd/out/*
 test/frontEnd/target/*
+test/frontEnd/.gradle/*
+test/frontEnd/.project/*
+test/frontEnd/.settings/*
 
 test/.gradle/*
 test/.idea/*
 test/.settings/*
 test/.classpath
 test/.project
+
 
