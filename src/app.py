@@ -4,6 +4,8 @@ from datetime import datetime
 from flask import Flask, render_template, request, flash, redirect, url_for
 from flask_login import LoginManager, current_user, login_user, logout_user, login_required, UserMixin
 
+from database import all
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.urandom(24)
 
