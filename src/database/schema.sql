@@ -1,12 +1,9 @@
-USE Domotica
-
 DROP TABLE IF EXISTS noticia;
 DROP TABLE IF EXISTS precio_luz;
 DROP TABLE IF EXISTS usuario;
 DROP TABLE IF EXISTS ciudad;
 DROP TABLE IF EXISTS tipo_dispositivo;
 DROP TABLE IF EXISTS dispositivo;
-
 
 CREATE TABLE noticia (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
@@ -16,7 +13,7 @@ CREATE TABLE noticia (
 );
 
 CREATE TABLE precio_luz (
-    fecha DATE, 
+    fecha DATE,
     precio_actual VARCHAR(20),
     precio_anterior VARCHAR(20)
 );
@@ -49,6 +46,3 @@ CREATE TABLE dispositivo (
     nombre VARCHAR(50),
     tipo INTEGER REFERENCES TIPO_DISPOSITIVO(id)
 );
-
-INSERT INTO usuario (nick, email, password, nombre, apellidos) VALUES ("sergio", "sergi2312@gmail.com", "password", "Sergio", "Esteban");
-INSERT INTO usuario (nick, email, password, nombre, apellidos) VALUES ("admin", "admin@gmail.com", "admin", "Admin", "Admin");
